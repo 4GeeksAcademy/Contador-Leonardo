@@ -10,8 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-#minutos{
-    color: aqua;
-    border: 10lvh;
-    background-color: beige;
+#contador{
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    border: 1em solid rgb(24, 24, 24);
+    padding: 10px;
+}
+
+.Digito{
+    color: rgb(228, 228, 228);
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    font-size: 8vh;
+    border: 2px solid rgb(202, 202, 202);
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-left: 1vh;
+}
+
+#contador p {
+    font-size: 7vh;
 }
