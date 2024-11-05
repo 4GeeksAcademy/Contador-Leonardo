@@ -7,7 +7,7 @@ function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setElapsedSeconds(prevSeconds => prevSeconds + 1);
-    }, 1000);
+    }, 1000);//Modificar la Velocidad de el tiempo para pruebas 
     return 
   }, []);
 
