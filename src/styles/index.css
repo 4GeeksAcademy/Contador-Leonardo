@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,64 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+#contador {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    border: 1em solid rgb(24, 24, 24);
+}
+
+#contador h1 {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+.Digito {
+    color: rgb(228, 228, 228);
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    font-size: 8vh;
+    border: 2px solid rgb(202, 202, 202);
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin: 1%;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#contador p {
+    font-size: 7vh;
+}
+
+@media (max-width: 768px) {
+    #contador h1 {
+        font-size: 4vw;
+    }
+    .Digito {
+        font-size: 8vw;
+    }
+    #contador p {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #contador h1 {
+        font-size: 8vw;
+    }
+    .Digito {
+        font-size: 4vw;
+    }
+    #contador p {
+        font-size: 3vw;
+    }
+}
